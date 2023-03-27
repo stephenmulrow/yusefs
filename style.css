@@ -1,37 +1,78 @@
-* {
- 
-  background-color: #dbbc7f;
-background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+#background {
+background-color: #e3d4ad;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-color: rgb(59, 0, 0);
 }
+
+nav {
+  background-color: white;
+}
+
+.top {
+  background-size: cover;
+  min-height: 80vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+button {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.uber {
+  position: absolute;
+  top: 10%;
+  right: 0%;
+}
+
+.bio {
+  padding: 5%;
+  font-size: 1.5rem;
+}
+
+p {
+  font: italic 1.2em "Fira Sans", serif;
+  size: 25px;
+}
+
+.ourstory {
+  padding: 1%;
+  font: italic "Fira Sans", serif;
+}
+
+a {
+  text-decoration: none
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.2);
+}
+
 
 #navbarText {
   font-size: 20px;
 }
 
-#yusefs {
-  font-size: 75px;
-  font-family: Brush Script MT, Brush Script Std, cursive;
-}
-
-li {
-  display: inline;
-}
-
-header {
-  font-size: 50px;
-  background-color: bisque;
-}
-
-.phone {
-  position: fixed;
-  right: 0;
-  bottom: 99
-}
-
-
 
 .card {
-  opacity: 90%;
+  opacity: 0.8;
+}
+
+
+#title {
+  color: white;
+}
+
+
+
+#store {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
